@@ -7,7 +7,8 @@ We will use [git submodules]() to embbed codingame-scala-kit git depot into anot
 ## Prerequisites
 
 In order to be able to contribute to [huiwang/codingame-scala-kit](https://github.com/huiwang/codingame-scala-kit)
-starts by forking this project, my forked instance is [dacr/CodinGame-Scala-Kit](https://github.com/dacr/CodinGame-Scala-Kit)
+starts by forking it, my forked instance, used in the following instructions, is
+[dacr/CodinGame-Scala-Kit](https://github.com/dacr/CodinGame-Scala-Kit), to be replace with you own.
 
 
 ## How to use this example ?
