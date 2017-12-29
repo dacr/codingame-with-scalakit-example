@@ -10,7 +10,7 @@ In order to be able to contribute to [huiwang/codingame-scala-kit](https://githu
 starts by forking this project, my forked instance is [dacr/CodinGame-Scala-Kit](https://github.com/dacr/CodinGame-Scala-Kit)
 
 
-## How to use this example
+## How to use this example ?
 
 In order to fork and/or reuse this example :
 ```bash
@@ -21,6 +21,9 @@ $ cd codingame-with-scalakit-example
 $ ./enhanceMyCode
 
 ```
+
+This example is just for a quick test, do not use it, **instead follow
+the following steps with your own copy of codingame-scala-kit** and not mine ;)
 
 
 ## How this project was created ?
@@ -43,6 +46,8 @@ $ git submodule add git@github.com:dacr/CodinGame-Scala-Kit.git codingame-scala-
 $ ln -s codingame-scala-kit-forked/build.sbt .
 
 $ ln -s codingame-scala-kit-forked/project .
+
+$ ln -s codingame-scala-kit-forked/.gitignore .
 
 $ ln -rs codingame-scala-kit-forked/src/main/scala/com/ src/main/scala/
 
@@ -98,4 +103,42 @@ $ ln -s enhance enhanceMyCode
 $ ./enhanceMyCode
 ```
 
+
+## How can I contribute to codingame-scala-kit ?
+
+you can enter into the submodule, the `codingame-scala-kit-forked` directory in this example,
+and make any changes you want as if you were direcly inside this embedded depot.
+
+```bash
+$ cd codingame-scala-kit-forked
+
+$ vi README.md
+
+$ git add README.md
+
+$ git commit -m 'Add information on how to use the scalakit as a git submodule'
+
+$ git push origin master
+
+$ cd ..
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   codingame-scala-kit-forked (new commits)
+
+$ git add codingame-scala-kit-forked
+
+$ git commit -m "Keep in sync with codingame-scala-kit-forked latest changes"
+
+$ git push origin master
+
+```
+
+And then you'll use the github web interface, and in your own copy of codinggame-scala-kit
+you'll be able to create a new pull request for
+[huiwang/codingame-scala-kit](https://github.com/huiwang/codingame-scala-kit)
 
