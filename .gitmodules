@@ -1,0 +1,3 @@
+[submodule "codingame-scala-kit-forked"]
+	path = codingame-scala-kit-forked
+	url = git@github.com:dacr/CodinGame-Scala-Kit.git
