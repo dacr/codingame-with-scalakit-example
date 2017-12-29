@@ -26,6 +26,7 @@ $ ./enhanceMyCode
 ## How this project was created ?
 
 All the executed steps in order to create this project are the following :
+
 ```bash
 $ mkdir codingame-with-scalakit-example
 
@@ -78,7 +79,8 @@ $ cat target/MyCode.scala
 
 
 Easy way for continuous test and bundling of one practice or challenge :
-```
+
+```bash
 $ echo -e '#!/bin/bash
 
 BUNDLER=com.truelaurel.codingame.tool.bundle.BundlerMain
@@ -95,6 +97,5 @@ $ ln -s enhance enhanceMyCode
 
 $ ./enhanceMyCode
 ```
-
 
 
